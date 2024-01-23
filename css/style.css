@@ -610,7 +610,6 @@ strong {
 .navbar {
   background: transparent;
   position: absolute;
-  top: 49px;
   right: 0;
   left: 0;
   z-index: 9;
@@ -868,7 +867,7 @@ strong {
   BANNER        
 -----------------------------------------*/
 .banner-section {
-  background-image: url('../images/high-angle-woman-cleaning-floors.jpg');
+  background-image: url('../images/group_shot.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

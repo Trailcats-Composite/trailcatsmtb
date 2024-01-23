@@ -12,7 +12,8 @@
     $('.hero-section').backstretch([
       "images/slideshow/athlete_berm.jpg", 
       "images/slideshow/athlete_racing.jpg",
-      "images/slideshow/athlete_trailwork.jpg"
+      "images/slideshow/athlete_trailwork.jpg",
+      "images/slideshow/podium.jpg"
     ],  {duration: 2000, fade: 750});
     
     // CUSTOM LINK
