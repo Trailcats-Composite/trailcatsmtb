@@ -10,11 +10,12 @@
 
     // BACKSTRETCH SLIDESHOW
     $('.hero-section').backstretch([
-      "images/slideshow/athlete_berm.jpg", 
-      "images/slideshow/athlete_racing.jpg",
-      "images/slideshow/athlete_trailwork.jpg",
-      "images/slideshow/podium.jpg"
-    ],  {duration: 2000, fade: 750});
+      {url:"images/slideshow/athlete_berm.jpg", alignY:0}, 
+      {url:"images/slideshow/podium.jpg"},
+      {url:"images/slideshow/athletes_trailwork.jpg", alignY:.35},
+      {url:"images/slideshow/athlete_racing.jpg", alignY:.45},
+      {url:"images/slideshow/riding_together.jpg", alignY:.70},
+    ],  {duration: 2500, fade: 750});
     
     // CUSTOM LINK
     $('.smoothscroll').click(function(){
