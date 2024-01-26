@@ -210,9 +210,6 @@ strong {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 .cd-headline.rotate-1 b.is-visible {
