@@ -207,9 +207,6 @@ strong {
   -ms-transform: rotateX(180deg);
   -o-transform: rotateX(180deg);
   transform: rotateX(180deg);
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  transform: translateZ(0);
 }
 
 .cd-headline.rotate-1 b.is-visible {
@@ -219,9 +216,9 @@ strong {
   -ms-transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
   transform: rotateX(0deg);
-  -webkit-animation: cd-rotate-1-in 1.2s;
-  -moz-animation: cd-rotate-1-in 1.2s;
-  animation: cd-rotate-1-in 1.2s;
+  -webkit-animation: cd-rotate-1-in 1.2s linear;
+  -moz-animation: cd-rotate-1-in 1.2s linear;
+  animation: cd-rotate-1-in 1.2s linear;
 }
 
 .cd-headline.rotate-1 b.is-hidden {
@@ -230,9 +227,9 @@ strong {
   -ms-transform: rotateX(180deg);
   -o-transform: rotateX(180deg);
   transform: rotateX(180deg);
-  -webkit-animation: cd-rotate-1-out 1.2s;
-  -moz-animation: cd-rotate-1-out 1.2s;
-  animation: cd-rotate-1-out 1.2s;
+  -webkit-animation: cd-rotate-1-out 1.2s linear;
+  -moz-animation: cd-rotate-1-out 1.2s linear;
+  animation: cd-rotate-1-out 1.2s linear;
 }
 
 @-webkit-keyframes cd-rotate-1-in {
