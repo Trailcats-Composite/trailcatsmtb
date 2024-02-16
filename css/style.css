@@ -845,6 +845,7 @@ strong {
 
 .team-section .row{
   margin-bottom: 12px;
+  min-height: 350px;
 }
 
 .gallery-image {
@@ -893,6 +894,7 @@ strong {
 .services-image,
 .team-image {
   border-radius: var(--border-radius-small);
+  height: 100%;
   display: block;
   aspect-ratio: 1;
   object-fit: cover;
